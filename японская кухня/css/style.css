@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.header{
+    color:white;
+    width: 100%;
+    height: 946px  ;
+    background: url(/img/japan.jpg) no-repeat;
+   
+   
+
+
+}
+
+.menu{
+    display: flex;
+    padding: 5% 20%;
+}
+.menu__logo{
+    
+    font-size: 120px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.span{
+    font-size: 28px;
+    padding: 5% 0px 5% 17%;
+    white-space: nowrap;
+}
+.list_el:hover .cursor {
+	width: 100%;
+	transition: 0.3s;
+}
+.cursor {
+	
+	margin: auto;
+	width: 0px;
+	height: 10px;
+	background-color: #F01649;
+	transition: 0.3s;
+}
+.span1{
+    display: flex;
+    padding: 20px 0px 20px  86px;
+}
+.cons{
+    overflow-y: hidden;
+}
+.in{
+
+    width: 50px;
+    height: 50px;
+    background-color: #F01649;
+    border-radius: 25px;
+    text-align: center;
+}
+.in img{
+    margin-top: 9px;
+}
+.im{
+padding-left: 10px;
+white-space: nowrap;
+}
+.span1.ds{
+    padding-left: 50%;
+}
+.cnop{
+    font-size: 18px;
+    background-color: #F01649;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left:62% ;
+    cursor: pointer;
+}
+.cnop p{
+    padding-top: 10px;
+}
+.cat{
+    text-align: center;
+    position: fixed; 
+    right: 40px; 
+    top: 5%; 
+    display: flex;
+    z-index: 3; 
+}
+.basket{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+   
+    background-color:  rgba(238, 9, 59, 0.5);
+   
+   
+    
+    color: white;
+
+    cursor: pointer;
+}
+.basket img{
+    margin-top: 18px;
+    
+}
+.main{
+    padding: 0px 11%;
+}
+.product-name{
+    font-family: 'Russo One', sans-serif;
+    font-size:20px;
+    text-align: center;
+}
+.container-autorization {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.product-container {
+	display: flex;
+	padding: 20px;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	font-size: 18px;
+	width: 350px;
+	height:550px;
+	padding: 15px;
+
+	margin: 20px 40px;
+}
+
+.product-img {
+	width: 100%;
+	height: 250px;
+	margin: 20px auto;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+.product-title {
+	margin: 10px 0px;
+	flex-grow: 1;
+    text-align: center;
+    font-size: 16px;
+   
+}
+
+.product-count {
+	display: flex;
+	
+}
+
+.product-count__counter {
+	display: flex;
+   margin: auto;
+	
+	height: 40px;
+	
+	overflow: hidden;
+}
+
+.counter-btn {
+	user-select: none;
+    font-size: 20px;
+    
+}
+
+.counter-btn[data-counter-count] {
+	flex-grow: 1;
+	display: flex;
+  margin:0px 12px;
+	align-items: center;
+	justify-content: center;
+    color: black;
+    
+}
+
+.counter-btn[data-counter-btn] {
+	
+	background-color: #F4F4F4;
+	display: flex;
+    width:40px;
+   z-index: 1;
+   padding-top: 6px;
+    position: relative;
+    justify-content: center;
+	border-radius: 11px;
+	color: gray;
+    cursor: pointer;
+}
+
+.counter-btn[data-counter-btn]:hover{
+    color: black;
+}
+.product-count__price {
+	font-size: 18px;
+    
+	flex-grow: 1;
+	
+	padding-right: 15px;
+margin: 0px 10px;
+    text-align: center;
+}
+
+.product-btn {
+	width: 160px;
+font-size: 15px;
+margin-left: 90px;
+	border-radius: 8px;
+	text-align: center;
+	margin-top: 20px;
+    
+	height: 40px;
+	background-color: #F01649;
+	color: white;
+	user-select: none;
+    cursor: pointer;
+    border: none;
+}
+
+.list_el.f{
+color: #c4c4c4;
+white-space: nowrap;
+font-size:14px;
+width: 180px;
+height: 30px;
+text-align: center;
+padding-top:10px;
+
+}
+.list_el.f:hover{
+    color:black;
+}
+
+.dd{
+    border-bottom:solid 2px #F4F4F4;
+}
+.dd:hover{
+    border-bottom:solid 2px #b4b4b4;
+}
+.cons{
+    display: flex;
+    margin-right:36.2% ;
+}
+.block__menu{
+    
+    align-items: center;
+	gap: 20px;
+   width: 100%;
+    padding-left: 14%;
+    position: sticky;
+	top: 0;
+  background-color: white;
+  z-index: 2;
+   
+}
+.btn-scroll {
+	font-size: 40px;
+	color: grey;
+    cursor: pointer;
+}
+.btn-scroll:hover {
+	color: black;
+}
+.block__title{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 42px;
+    padding: 3% 30%;
+    white-space: nowrap;
+}
+.scroll-title{
+    font-size: 17px;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-left: 7%;
+    margin-top:25px;
+    white-space: nowrap;
+}
+.scroll-container{
+    display: flex;
+    overflow-x: scroll;
+	
+
+}
+.scroll-container::-webkit-scrollbar {
+	width: 0;
+}
+.container-basket{
+    background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	width: 100%;
+	
+	display: none;
+	justify-content: center;
+	align-items: center;
+    z-index: 3;
+    overflow-y:scroll;
+    height:100%;
+}
+
+.cbasket{
+ 
+	margin:45px 29%;
+	width: 730px;
+	
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px 30px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.cbasket .esc {
+	width: 100%;
+	color: gray;
+	font-size: 35px;
+	text-align: right;
+    cursor: pointer;
+}
+.cbasket .esc:hover {
+	color: black;
+}
+.cbasket-title {
+    font-size: 15px;
+    text-align: center;
+   padding: 40px 16px;
+  
+}
+.cbasket-title p{
+    font-family: 'Roboto Slab', serif;
+}
+.til{
+    padding-top: 12px;
+    
+}
+.min-basket{
+   
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+    background-color: red;
+    left: 55px;
+position: absolute;
+display: flex;
+
+align-items: center;
+font-size: 15px;
+
+display: none;
+}
+.zakaz{
+    font-family: 'Roboto Slab', serif;  
+    font-size: 25px;
+}
+#pr{
+    display: none;
+}
+.cart-list{
+    width: 100%;
+}
+.cart-product{
+    display: flex;
+   
+}
+.cart-img img {
+	width: 100px;
+	height: 80px;
+	margin-left: -10px;
+	
+	
+	
+}
+hr{
+    margin: 20px 0px;
+    
+}
+
+.cart-total{
+    border-top: solid 1px gray;
+    width: 100%;
+  display: flex;
+  font-size: 15px;
+}
+.step{
+    padding-left: 83%;
+   
+}
+.rouble{
+    color:#c4c4c4;
+}
+
+
+.cart-product .product-name{
+    font-size: 13px;
+    text-align: left;
+}
+.cart-product .product-title{
+    font-size: 9px;
+    width: 620px;
+    text-align: left;
+}
+.cart-product .product-count__price{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 15px;
+    color: #F01649;
+}
+.cart-product .counter-btn{
+    font-size: 15px;
+}
+
+.cart-product .product-count__counter{
+    margin: 0;
+    height: 25px;
+}
+.cart-product .counter-btn[data-counter-count]{
+    margin:0px 5px;
+
+}
+.delate{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 4px;
+    margin-left: 15px;
+    color: gray;
+    width: 70px;
+    height: 20px;
+    cursor: pointer;
+}
+.delate:hover{
+    color:red;
+    background-color: rgba(238, 9, 59, 0.1);
+}
+.base-title{
+    font-family: 'Roboto Slab', serif;  
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+.df{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border:solid 1px black;
+    background-color: rgb(235, 235, 235);
+    font-size: 16px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+}
+.textare{
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    border:solid 1px black;
+    background-color: rgb(235, 235, 235);
+    font-size:17px;
+    padding-top: 10px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+}
+.ofor{
+    margin-top:40px
+}
+.sap{
+    width: 100%;
+    height: 45px;
+    border:none;
+    border-radius: 6px;
+    color: white;
+    background-color: #F01649;
+    cursor: pointer;
+    
+}
